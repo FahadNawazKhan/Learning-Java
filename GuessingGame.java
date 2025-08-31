@@ -19,7 +19,7 @@ public class GuessingGame {
             } else if(guess < number){
                 System.out.println("Too low! Try again.");
             } else {
-                System.out.println("Correct! THE CORRECT NUMBER IS: " + a);
+                System.out.println("Correct! THE CORRECT NUMBER IS: " + guess);
             }
         }
     }
